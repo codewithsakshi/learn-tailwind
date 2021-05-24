@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.humburger-courses {
+  position: relative;
+}
+
+.humburger-courses:hover .humburger-courses-details {
+  visibility: visible;
+}
+
+.humburger-courses-details {
+  position: absolute;
+  top: 150%;
+}
+
+.humburger-admissions {
+  position: relative;
+}
+
+.humburger-admissions:hover .humburger-admissions-details {
+  visibility: visible;
+}
+
+.humburger-admissions-details {
+  position: absolute;
+  top: 150%;
+  box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header-links.toggle {
+  transform: translate(0);
+}
+
+@media screen and (max-width: 768px) {
+  .humburger-links {
+    transform: translate(110%);
+  }
+
+  .header-icon {
+    display: block;
+  }
+}
