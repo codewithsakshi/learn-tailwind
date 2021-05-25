@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary School Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/151ad85782.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="flex justify-between items-center w-11/12 m-auto md:pt-2">
+      <img src="./binaryschool.svg" alt="binary School logo" class="w-64" />
+      <button class="text-xl hover:underline text-blue-500">Sign in</button>
+    </div>
+    <section class="md:w-10/12 m-auto md:pt-10 pt-6 md:px-0 px-6">
+      <h2 class="md:text-3xl text-2xl font-bold">
+        Let's see how prepared you are to go all in!
+      </h2>
+      <div class="text-gray-600 text-lg md:pt-7 pt-4">
+        <p class="text-xl pb-1 leading-3">
+          How would you describe your programming experience?<span
+            class="text-blue-400 text-2xl"
+            >*</span
+          >
+        </p>
+        <label for="option">Select an option to learn more about it. </label>
+        <div class="flex flex-wrap justify-between md:pt-3">
+          <button
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              md:px-2
+              md:py-10
+              hover:text-blue-500
+              uppercase
+              text-2xl
+              font-medium
+              md:w-auto
+              w-44
+              md:h-auto
+              h-40
+              md:my-0
+              my-2
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="fad fa-signal-1 text-5xl"></i>
+            <small>no experience</small>
+          </button>
+          <button
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              md:px-5
+              md:py-10
+              hover:text-blue-500
+              uppercase
+              text-2xl
+              font-medium
+              md:w-auto
+              w-44
+              md:h-auto
+              h-40
+              md:my-0
+              my-2
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="fad fa-signal-2 text-5xl"></i>
+            <small>beginner</small>
+          </button>
+          <button
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              md:px-5
+              md:py-10
+              hover:text-blue-500
+              uppercase
+              text-2xl
+              font-medium
+              md:w-auto
+              w-44
+              md:h-auto
+              h-40
+              md:my-0
+              my-2
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="fad fa-signal-3 text-5xl"></i>
+            <small>intermediate</small>
+          </button>
+          <button
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              md:px-5
+              md:py-10
+              hover:text-blue-500
+              uppercase
+              text-2xl
+              font-medium
+              md:w-auto
+              w-44
+              md:h-auto
+              h-40
+              md:my-0
+              my-2
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="fad fa-signal-4 text-5xl"></i>
+            <small>advanced</small>
+          </button>
+          <button
+            class="
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              md:px-5
+              md:py-10
+              hover:text-blue-500
+              uppercase
+              text-2xl
+              font-medium
+              md:w-auto
+              w-44
+              md:h-auto
+              h-40
+              md:my-0
+              my-2
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="fad fa-signal text-5xl"></i>
+            <small>professional</small>
+          </button>
+        </div>
+        <p>i have never programmed before.</p>
+      </div>
+
+      <div class="text-gray-700 py-8">
+        <h3 class="text-2xl">
+          Do you plan to look for full-time work immediately after Binary
+          School?<span class="text-blue-400 text-xl">*</span>
+        </h3>
+        <p class="text-lg pt-2 leading-5">
+          Binary School is for people who want to seek work immediately upon
+          graduation from our course.
+        </p>
+        <div class="flex justify-between md:w-3/4 pt-4">
+          <button
+            class="
+              w-1/2
+              h-36
+              m-auto
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              hover:text-blue-500
+              font-semibold
+              text-gray-400
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="far fa-check-circle text-6xl pt-4"></i>
+            <small class="uppercase text-xl pt-1 md:pb-4">yes</small>
+          </button>
+          <button
+            class="
+              w-1/2
+              mx-6
+              h-36
+              m-auto
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              hover:text-blue-500
+              font-semibold
+              text-gray-400
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="far fa-times-circle text-6xl pt-4"></i>
+            <small class="uppercase text-xl">no</small>
+          </button>
+        </div>
+      </div>
+
+      <div class="text-gray-700">
+        <label for="" class="text-2xl"
+          >What is your LinkedIn profile url? (Optional)</label
+        >
+        <p class="text-lg py-2 leading-5">
+          If you don't have one, leave this field blank.
+        </p>
+        <input
+          type="text"
+          class="md:w-3/4 w-11/12 border border-gray-400 p-2 rounded-md mb-5 focus:ring-2 focus:outline-none"
+        />
+        <br />
+        <label for="" class="text-2xl"
+          >What is your GitHub username? (Optional)</label
+        >
+        <p class="text-lg py-2 leading-5">
+          If you don’t have one, leave this field blank. Please only enter your
+          username and not your profile link.
+        </p>
+        <input
+          type="text"
+          class="md:w-3/4 w-11/12 border border-gray-400 p-2 rounded-md mb-5 focus:ring-2 focus:outline-none"
+        />
+      </div>
+
+      <div class="text-gray-700">
+        <h3 class="text-2xl">
+          Are you able to attend 95% of classes?<span class="text-blue-500">*</span>
+        </h3>
+        <p class="text-lg pt-2 leading-5">
+          Attending 95% of classes means you can only miss 1 day a month.
+        </p>
+        <div class="flex justify-between md:w-3/4 pt-2">
+          <button
+            class="
+              w-1/2
+              h-36
+              m-auto
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              hover:text-blue-500
+              font-semibold
+              text-gray-400
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="far fa-check-circle text-6xl pt-4"></i>
+            <small class="uppercase text-xl pt-1 md:pb-4">yes</small>
+          </button>
+          <button
+            class="
+              w-1/2
+              mx-6
+              h-36
+              m-auto
+              flex flex-col
+              items-center
+              justify-center
+              border border-gray-400
+              hover:border-blue-500
+              rounded-md
+              hover:text-blue-500
+              font-semibold
+              text-gray-400
+              focus:ring-2 focus:outline-none
+            "
+          >
+            <i class="far fa-times-circle text-6xl pt-4"></i>
+            <small class="uppercase text-xl">no</small>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:w-10/12 m-auto md:pt-10 pt-6 md:px-0 px-6">
+      <h2 class="text-3xl font-bold">
+        Let's create your account so you can access your application later.
+      </h2>
+      <form action="" class="text-xl text-gray-700 pt-8">
+        <div class="md:flex justify-between md:w-3/4 w-full">
+          <div class="md:w-1/2 md:mr-4 ">
+            <label for="First Name"
+              >First Name<span class="text-blue-500">*</span></label
+            ><br />
+            <input
+              type="text"
+              name="first name"
+              class="border border-gray-500 mt-3 w-full p-2 rounded-md focus:ring-2 focus:outline-none"
+            />
+          </div>
+          <div class="md:w-1/2 md:ml-4 w-full">
+            <label for="last name"
+              >Last Name<span class="text-blue-500">*</span></label
+            ><br />
+            <input
+              type="text"
+              name="last name"
+              class="border border-gray-500 mt-3 w-full p-2 rounded-md focus:ring-2 focus:outline-none"
+            />
+          </div>
+        </div>
+        <div class="mt-5 md:w-3/4">
+          <label for="email">Email<span class="text-blue-500">*</span></label
+          ><br />
+          <input
+            type="text"
+            class="border border-gray-500 mt-3 w-full p-2 rounded-md focus:ring-2 focus:outline-none"
+          />
+        </div>
+        <div class="mt-5 md:w-3/4 ">
+          <label for="password"
+            >Password<span class="text-blue-500">*</span></label
+          ><br />
+          <input
+            type="password"
+            class="border border-gray-500 mt-3 w-full p-2 rounded-md focus:ring-2 focus:outline-none"
+          />
+        </div>
+        <div class="mt-3">
+          <input type="checkbox" />
+          <label for=""
+            >I agree to the Binary school's
+            <a href="#" class="text-blue-600 underline font-semibold"
+              >Privacy Policy</a
+            ></label
+          >
+        </div>
+        <p class="text-base w-10/12 mt-5">
+          By creating an account and submitting an application to Lambda School,
+          you agree to abide by our
+          <a href="" class="text-blue-600 underline font-medium"
+            >student guide and code of conduct.</a
+          >
+        </p>
+      </form>
+    </section>
+
+   <section class="md:w-3/5 w-10/12 m-auto text-xl text-gray-800 pt-8">
+     <h2 class="text-3xl text-black font-bold">Hi, please tell us a little more about yourself.</h2>
+     <div class="pt-8">
+       <label for="">What is your date of birth?<span>*</span></label><br>
+       <input type="date" class="w-full border p-2 border-gray-400 rounded-md text-md text-gray-400 mt-3 focus:ring-2 focus:outline-none">
+     </div>
+     <div class="text-gray-700 pt-6">
+      <label class="text-xl">
+        Are you Indian citizen or permanent resident?<span class="text-blue-500">*</span>
+      </label>
+      <div class="flex justify-between  mt-3">
+        <button
+          class="
+            w-full
+            h-40
+            m-auto
+            flex flex-col
+            items-center
+            justify-center
+            border border-gray-400
+            hover:border-blue-500
+            rounded-md
+            hover:text-blue-500
+            font-semibold
+            text-gray-400
+            focus:ring-2
+            focus:outline-none
+          "
+        >
+          <i class="far fa-check-circle text-6xl pt-4"></i>
+          <small class="uppercase text-xl pt-1 md:pb-4">yes</small>
+        </button>
+        <button
+          class="
+            w-full
+            mx-6
+            h-40
+            m-auto
+            flex flex-col
+            items-center
+            justify-center
+            border border-gray-400
+            hover:border-blue-500
+            rounded-md
+            hover:text-blue-500
+            font-semibold
+            text-gray-400
+            focus:ring-2
+            focus:outline-none
+          "
+        >
+          <i class="far fa-times-circle text-6xl pt-4"></i>
+          <small class="uppercase text-xl">no</small>
+        </button>
+      </div>
+
+    </div>
+    <div class="text-gray-700 pt-6">
+      <label class="text-xl">
+        Do you currently live in India?<span class="text-blue-500">*</span>
+      </label>
+      <div class="flex justify-between  mt-3">
+        <button
+          class="
+            w-full
+            h-40
+            m-auto
+            flex flex-col
+            items-center
+            justify-center
+            border border-gray-400
+            hover:border-blue-500
+            rounded-md
+            hover:text-blue-500
+            font-semibold
+            text-gray-400
+            focus:ring-2
+            focus:outline-none
+          "
+        >
+          <i class="far fa-check-circle text-6xl pt-4"></i>
+          <small class="uppercase text-xl pt-1 md:pb-4">yes</small>
+        </button>
+        <button
+          class="
+            w-full
+            mx-6
+            h-40
+            m-auto
+            flex flex-col
+            items-center
+            justify-center
+            border border-gray-400
+            hover:border-blue-500
+            rounded-md
+            hover:text-blue-500
+            font-semibold
+            text-gray-400
+            focus:ring-2
+            focus:outline-none
+          "
+        >
+          <i class="far fa-times-circle text-6xl pt-4"></i>
+          <small class="uppercase text-xl">no</small>
+        </button>
+      </div>
+
+    </div>
+    <div class="pt-8">
+      <label for="">What is your address?<span>*</span></label>
+      <p>Street address<span>*</span></p>
+      <input type="text" class="w-full border p-2 border-gray-400 rounded-md text-md text-gray-400 mt-3 focus:ring-2 focus:outline-none">
+    </div>
+    <div class="md:flex justify-between pt-6">
+      <div class="w-11/12">
+      <label for="city" class=" focus:ring-2
+      focus:outline-none">City<span>*</span></label>
+      <input type="text" class="border border-gray-400 rounded-md p-2 mt-2 w-11/12  focus:ring-2
+      focus:outline-none">
+    </div>
+    <div class="w-11/12">
+      <label for="state">State<span>*</span></label>
+      <select name="" id="" class="border border-gray-400 rounded-md p-2 mt-2 w-11/12 text-lg focus:ring-2 focus:outline-none">
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+        <option value="Daman and Diu">Daman and Diu</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Lakshadweep">Lakshadweep</option>
+        <option value="Puducherry">Puducherry</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="West Bengal">West Bengal</option>
+      </select>
+    </div>
+    <div class="w-11/12">
+      <label for="pincode">Pin Code<span>*</span></label>
+      <input type="text" class="border border-gray-400 rounded-md p-2 mt-2 w-11/12 focus:ring-2 focus:outline-none">
+    </div>
+    </div>
+    <div class="pt-8">
+      <p for="gender">Select gender</p>
+      <input type="radio" class="">
+      <label for="woman" class="mx-7 ">Woman</label>
+      <input type="radio" class="">
+      <label for="woman">Man</label>
+    </div>
+   </section> 
+    </section>
+  </body>
+</html>
