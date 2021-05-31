@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-container{
+    background-image: url(./assets/josh-rinard-h-9-mp-1-p-1-v-uj-4-unsplash.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.car-purchase-section {
+    background-image: url(./assets/jbjbjb.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+   }
+
+.founder-img {  
+  background-image: url("https://images.unsplash.com/photo-1549473448-5d7196c91f48?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE2fHxjb21wYW55JTIwY2VvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.chief-img {
+  background-image: url("https://images.unsplash.com/photo-1560250097-0b93528c311a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGNvbXBhbnklMjBjZW98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.image-container .img-1 {
+ background-image: url("https://images.unsplash.com/photo-1534883928313-2accce30e5ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybCUyMHdpdGglMjBjYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+ background-size: cover;
+ background-position: right;
+}
+
+.image-container .img-2 {
+ background-image: url(" https://images.unsplash.com/photo-1602111480420-c76933522b00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTgwfHxtYW4lMjB3aXRoJTIwY2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+ background-size: cover;
+ background-position: right;
+}
+
+.image-container .img-3 {
+  background-image: url(" https://images.unsplash.com/photo-1569077216496-c002dd8d887d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container .img-4 {
+  background-image: url("https://images.unsplash.com/photo-1523464681476-d06d17817255?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGdpcmwlMjB3aXRoJTIwYSUyMGNhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: top;
+}
+
+.icon {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.location-map {
+  background-image: url("./assets/screen-shot-2020-04-11-at-19-13-31.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeatd;
+}
