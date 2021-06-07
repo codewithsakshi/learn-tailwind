@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Validator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="lg:w-2/5 max-w-md m-auto shadow-xl rounded-md pt-5 main-container h-screen"
+    >
+      <h1 class="text-3xl font-semibold text-center py-4">Register With Us</h1>
+      <form class="text-gray-600 pt-5 md:px-10 px-5 form-container">
+        <div>
+          <label for="username">Username</label><br />
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter username"
+            class="border-2 mt-2 py-2 w-full rounded-sm px-2 outline-white"
+            id="username"
+             />
+          <small></small>
+        </div>
+        <div class="mt-8">
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            placeholder="Enter email"
+            class="border-2 mt-2 py-2 w-full rounded-sm px-2 outline-white"
+            id="email"
+            name="email"
+            />
+            <small class="invisible">error message</small>
+        </div>
+        <div class="pt-2">
+          <label for="password">password</label><br />
+          <input
+            type="password"
+            placeholder="Enter password"
+            class="border-2 mt-2 py-2 w-full rounded-sm px-2 outline-white"
+            id="password"
+            name="password"
+             />
+             <small class="invisible">error message</small>
+        </div>
+        <div class="pt-2">
+          <label for="confirm-password">confirm password</label><br />
+          <input
+            type="password"
+            placeholder="Enter password again"
+            class="border-2 mt-2 py-2 w-full rounded-sm px-2 outline-white"
+            id="password2"
+            name="password2"
+             />
+          <small class="invisible">error message</small>
+        </div>
+        <button
+          type="submit"
+          class="
+            bg-gray-500
+            mt-4
+            py-3
+            mt-4
+            focus:outline-none
+            text-white
+            w-full
+            rounded-sm
+            px-2
+            opacity-95
+          "
+          id="submit-btn"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
